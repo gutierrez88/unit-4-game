@@ -3,8 +3,8 @@ var losses = 0;
 var targetScore = 0;
 var currentScore=0;
 var picValue =[];
-var duke = new Audio("dukeFightSong.mp3");
-var homer = new Audio("homer.mp3")
+var duke = new Audio("assets/dukeFightSong.mp3");
+var homer = new Audio("assets/homer.mp3")
 
 function comPick(){
     targetScore = Math.floor(Math.random()*101)+19;
