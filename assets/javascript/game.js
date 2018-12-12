@@ -3,7 +3,7 @@ var losses = 0;
 var targetScore = 0;
 var currentScore=0;
 var picValue =[];
-var audio = new Audio("dukeFightSong.mp3");
+var duke = new Audio("dukeFightSong.mp3");
 
 function comPick(){
     targetScore = Math.floor(Math.random()*101)+19;
@@ -52,7 +52,7 @@ currentScore = 0;
 picValue=[];
 comPick()
 pick()
-audio.play()
+duke.play()
 };
 
 function loss(){
