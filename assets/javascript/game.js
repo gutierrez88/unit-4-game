@@ -4,6 +4,7 @@ var targetScore = 0;
 var currentScore=0;
 var picValue =[];
 var duke = new Audio("dukeFightSong.mp3");
+var homer = new Audio("homer.mp3")
 
 function comPick(){
     targetScore = Math.floor(Math.random()*101)+19;
@@ -62,4 +63,5 @@ currentScore = 0;
 picValue=[];
 comPick()
 pick()
+homer.play()
 };
