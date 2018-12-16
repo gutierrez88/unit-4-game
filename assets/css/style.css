@@ -6,7 +6,9 @@
 }
 
 body {
-    background-image: url(../images/Duke.jpg);
+    background-color: #000000;
+    background-image: url(../images/dukeback.jpg);
+    background-repeat: no-repeat;
 }
 
 .heading {
@@ -35,7 +37,7 @@ body {
 }
 
 .last {
-    background-color: #000000;
+    background-image: url(../images/dukelogo.jpeg);
     color: #ffffff;
     Font-size: 20px;
 }
